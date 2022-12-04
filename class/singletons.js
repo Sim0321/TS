@@ -18,4 +18,5 @@ ClassName.instance = null;
 const a1 = ClassName.getInstance(); // 처음이니 만들어서 리턴
 // const b1 = new ClassName();
 const b1 = ClassName.getInstance(); // a가 만들었으니 그것을 리턴
-console.log(a1 === b1);
+console.log(a1 === b1); // true
+// 싱글톤 패턴이 좋으니 자주 쓰자 보다는 static을 좀 더 이해하고자 하므로 공부함
