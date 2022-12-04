@@ -3,6 +3,7 @@ class Person2 {
     static hello() {
         console.log("하이요", Person2.CITY);
     }
+    // 공유가 어떻게 가능한지 보여주는 예시
     example() {
         console.log("공유 가능", Person2.CITY);
     }
