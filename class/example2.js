@@ -3,6 +3,10 @@
 // {sim : 'male', jin : 'male'} a반
 // {mon : 'female', wang : "male", son : 'female'} b반
 class Students {
+    constructor() {
+        // 원래는 sim : string = 'male' 이런식으로 처리를 하는데 만약 새로운 학생이 들어온다면 처리 할 수 없음. 즉 프로퍼티의 이름이 동적이라면 index signatures를 사용해야함
+        this.always = "male"; // a,b반 둘 다 있다하면 옵셔널하게 적용 가능
+    }
 }
 const a = new Students();
 a.sim = "male";
