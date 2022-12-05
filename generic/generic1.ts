@@ -9,6 +9,7 @@ function helloNumber(message: number): number {
 // 더 많은 반복된 함수들...
 
 function hello(message: any): any {
+  // 모든걸 받아서 모든걸 주는 것이라. 정확히 들어오는 input에 의해서 달라지는 타이핑 금지.
   return message;
 }
 
